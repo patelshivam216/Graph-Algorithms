@@ -17,7 +17,7 @@ int main(){
     }
 
 
-    // Ip for graph
+    // Ip for graph considering 2D graph
     for(int i=0;i<m;i++){
 
         int u,v,wt;
