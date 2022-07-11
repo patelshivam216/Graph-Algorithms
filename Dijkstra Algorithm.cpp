@@ -18,6 +18,7 @@ void dijkstra(int source){
     set<pair<int,int>> st;
     st.insert({0,source});
     //         dis,node 
+    // distance means level 
     dist[source]=0;
 
     while(st.size()>0){
