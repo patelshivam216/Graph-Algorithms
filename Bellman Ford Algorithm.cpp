@@ -1,5 +1,5 @@
 // bellman ford algorithm 
-// is NOT working with negative cycle 
+// is NOT working with negative cycle but works with negative weight
 // need to be directed graph
 
 #include<bits/stdc++.h>
