@@ -22,7 +22,7 @@ int main(){
             int nx = x + movement.first;
             int ny = y + movement.second;
 
-            if(nx<0 || ny<o || nx>=graph.size() || ny>= graph[0].size()) continue;
+            if(nx<0 || ny<0 || nx>=graph.size() || ny>= graph[0].size()) continue;
 
             // weight of new location is 
             int wt = graph[nx][ny];
